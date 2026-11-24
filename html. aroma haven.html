@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aroma Haven Café</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#welcome" class="logo">Aroma Haven</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#welcome">Welcome</a></li>
+          <li><a href="#specials">Specials</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#visit">Hours & Location</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Welcome Section -->
+  <section id="welcome" class="hero">
+    <div class="container hero-content">
+      <span class="tagline">Freshly Roasted Daily</span>
+      <h1>Crafted Coffee & Artisan Pastries</h1>
+      <p>Experience ethically sourced specialty coffee, warm sourdough pastries, and a calm corner built for conversation and focus.</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+        <a href="#visit" class="btn btn-outline">Find Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Items Section -->
+  <section id="specials" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">Barista Favorites</span>
+        <h2>Seasonal Special Items</h2>
+      </div>
+      <div class="grid-3">
+        <article class="card">
+          <div class="card-badge">Best Seller</div>
+          <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80" alt="Honey Cinnamon Oat Latte" />
+          <div class="card-body">
+            <div class="card-title-row">
+              <h3>Honey Cinnamon Oat Latte</h3>
+              <span class="price">$5.75</span>
+            </div>
+            <p>Double-shot espresso infused with organic wildflower honey, Ceylon cinnamon, and velvety steamed oat milk.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-badge">Chef's Pick</div>
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80" alt="Pistachio Rose Croissant" />
+          <div class="card-body">
+            <div class="card-title-row">
+              <h3>Pistachio Rose Croissant</h3>
+              <span class="price">$6.25</span>
+            </div>
+            <p>Flaky butter pastry filled with house-made roasted pistachio cream and topped with crushed pistachios.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-badge">Limited</div>
+          <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=800&q=80" alt="Ceremonial Yuzu Matcha" />
+          <div class="card-body">
+            <div class="card-title-row">
+              <h3>Ceremonial Yuzu Matcha</h3>
+              <span class="price">$6.00</span>
+            </div>
+            <p>Uji ceremonial grade matcha whisked over sparkling yuzu citrus tonic and poured over crystal ice.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">Daily Offerings</span>
+        <h2>Our Menu</h2>
+      </div>
+      <div class="menu-grid">
+        <!-- Espresso & Coffee -->
+        <div class="menu-category">
+          <h3>Espresso & Filter</h3>
+          <ul class="menu-list">
+            <li>
+              <div>
+                <h4>Double Espresso</h4>
+                <p>Single-origin Ethiopian medium roast</p>
+              </div>
+              <span class="price">$3.50</span>
+            </li>
+            <li>
+              <div>
+                <h4>Flat White</h4>
+                <p>Ristretto shots with silky micro-foam</p>
+              </div>
+              <span class="price">$4.75</span>
+            </li>
+            <li>
+              <div>
+                <h4>Pour-Over V60</h4>
+                <p>Hand-brewed seasonal reserve beans</p>
+              </div>
+              <span class="price">$5.50</span>
+            </li>
+            <li>
+              <div>
+                <h4>Cold Brew Tonic</h4>
+                <p>18-hour slow-steeped coffee with botanical tonic</p>
+              </div>
+              <span class="price">$5.25</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Bakery & Kitchen -->
+        <div class="menu-category">
+          <h3>Bakery & Bites</h3>
+          <ul class="menu-list">
+            <li>
+              <div>
+                <h4>Almond Brioche Bostock</h4>
+                <p>Toasted brioche with frangipane and flaked almonds</p>
+              </div>
+              <span class="price">$5.00</span>
+            </li>
+            <li>
+              <div>
+                <h4>Avocado Sourdough Tartine</h4>
+                <p>Poached egg, chili oil, microgreens on country loaf</p>
+              </div>
+              <span class="price">$9.50</span>
+            </li>
+            <li>
+              <div>
+                <h4>Cardamom Morning Bun</h4>
+                <p>Swirled laminated dough with freshly ground cardamom sugar</p>
+              </div>
+              <span class="price">$4.50</span>
+            </li>
+            <li>
+              <div>
+                <h4>Dark Chocolate Sea Salt Cookie</h4>
+                <p>70% single-origin dark chocolate chunks with flaky salt</p>
+              </div>
+              <span class="price">$3.75</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews Section -->
+  <section id="reviews" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle">Community Love</span>
+        <h2>Customer Reviews</h2>
+      </div>
+      <div class="grid-3">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"The Honey Cinnamon Oat Latte is unmatched. Fast Wi-Fi, warm lighting, and the friendliest baristas in town."</p>
+          <span class="reviewer">— Maya Lin, Local Designer</span>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Their pour-over coffee tastes clean and balanced, and the pistachio croissant comes out warm at 8 AM sharp."</p>
+          <span class="reviewer">— Marcus Vance, Coffee Enthusiast</span>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"My favorite weekend spot to read. The avocado sourdough tartine and yuzu matcha are an unbeatable combo."</p>
+          <span class="reviewer">— Elena Rostova, Architect</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opening Hours & Location Section -->
+  <section id="visit" class="section bg-alt">
+    <div class="container">
+      <div class="visit-grid">
+        <!-- Opening Hours -->
+        <div class="info-box">
+          <span class="subtitle">When to Visit</span>
+          <h2>Opening Hours</h2>
+          <ul class="hours-list">
+            <li>
+              <span>Monday – Friday</span>
+              <span>7:00 AM – 7:00 PM</span>
+            </li>
+            <li>
+              <span>Saturday</span>
+              <span>8:00 AM – 8:00 PM</span>
+            </li>
+            <li>
+              <span>Sunday</span>
+              <span>8:00 AM – 6:00 PM</span>
+            </li>
+          </ul>
+          <p class="note">Kitchen closes 1 hour before closing time.</p>
+        </div>
+
+        <!-- Location -->
+        <div class="info-box">
+          <span class="subtitle">Where We Are</span>
+          <h2>Location & Contact</h2>
+          <p class="address">
+            <strong>Aroma Haven Café</strong><br />
+            245 Maplewood Avenue, Suite 102<br />
+            Seattle, WA 98101
+          </p>
+          <p class="contact-details">
+            Phone: (206) 555-0194<br />
+            Email: hello@aromahavencafe.com
+          </p>
+          <div class="map-placeholder">
+            <span>Interactive Map Area — 245 Maplewood Ave (2 blocks from Central Station)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Aroma Haven Café. Crafted with care.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
